@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Raleway:ital,wght@0,300;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #3498db;
+}
+
+.modal-open {
+  overflow: scroll;
+}
+
+header {
+  padding: 10px;
+  background-color: beige;
+  position: fixed;
+  width: 100%;
+}
+
+header button {
+  float: right;
+}
+
+.modal-open .modal {
+  top: auto;
+  left: auto;
+}
+
+.modal-dialog {
+  margin: 0px 10px 10px 0px;
+  width: 510px;
+}
+
+.modal-content {
+  width: 500px;
+}
+
+.container {
+  min-width: 20rem;
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 70px;
+}
+.container h1 {
+  font-size: 5rem;
+}
+
+.container .posts {
+  background-color: aliceblue;
+  padding: 2rem 5rem;
+  margin-top: 5rem;
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.container .post-id {
+  width: 4rem;
+  height: 4rem;
+  display: grid;
+  background-color: #2980b9;
+  color: white;
+  place-items: center;
+  font-size: 2rem;
+  border-radius: 1rem;
+}
+
+.container .title {
+  font-size: 2rem;
+  padding: 1rem 0rem;
+}
+
+.container .post-info {
+  font-size: 1.4rem;
+}
